@@ -193,13 +193,3 @@ h1{
   letter-spacing: 5px;
   cursor: pointer;
 }
-.banners {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: url('./images/bg2.jpg');
-  background-size: cover;
-}
