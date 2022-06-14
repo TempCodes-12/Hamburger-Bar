@@ -139,12 +139,10 @@ h1{
 
 .menu a.is-active {
   background-color: var(--primary);
-
 }
 
 .menu a:hover {
   background-color: var(--primary);
-
 }
 
 @media (min-width: 768px) {
