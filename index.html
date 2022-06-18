@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+
+
   <title>Web Dev.</title>
 </head>
 <body>
@@ -47,11 +49,19 @@
 
     <section class="banner" id="about">
         <div class="content">
-            <h2>About</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
-            since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-             centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <a href="#" class="btn">Our Menu</a>
+            <h2>Form</h2>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){
+                window.location='https://hzmtest.netlify.app/';}"></iframe>
+            <div class="container">
+                <div class="box">
+                    <h1>Contact form</h1>
+                  
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLScUgmnZwcHXmLKlY1aCw9uY7JOlLshizKb-_h6T3UI7Gdh58A/formResponse" target="hidden_iframe" onsubmit="submitted=true" method="POST">
+                      <label style="color: white;">Name:</label>
+                      <input type="text" placeholder="Name" name="entry.65911239"><br>
+                        <input type="submit" value="Submit"><br>
+                      </form>
           </div>
     </section>
 
